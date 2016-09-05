@@ -6,10 +6,11 @@ X9 uses an Arduino
 
 Usage
 --------
-First you need to export two environment variables:
-* ``APPLICATION_ENDPOINT``: The URL that returns a http status code 200 when the application is healthy
-* ``ARDUINO_PORT``: The serial port that your Arduino is connected to
-* Run it: ``$ python X9.py``
+1. Export those environment variables:
+    * ``APPLICATION_ENDPOINT``: The URL that returns a http status code 200 when the application is healthy
+    * ``ARDUINO_PORT``: The serial port that your Arduino is connected to
+2. Run it: ``$ python X9.py``
+3. Have fun!
 
 
 
